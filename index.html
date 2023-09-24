@@ -22,5 +22,28 @@
             <a href="#" class="navegacion__link--registrar">Registar restaurante</a>
         </nav>
     </header>
+
+    <section class="contenedor formulario">
+        <div class="formulario__grid">
+            <div class="formulario__contenido">
+                <h2>Encuentra y pide comida de tu restaurante favorito</h2>
+                <form class="formulario__buscar">
+                    <div class="formulario__campo">
+                        <label class="formulario__label" for="Restaurant">Restaurant</label>
+                        <input id="Restaurant" type="text" class="formulario__input" placeholder="Salchipapa Costeña">
+                    </div>
+                    <div class="formulario__campo">
+                        <label class="formulario__label" for="platillo">Platillo</label>
+                        <input id="platillo" type="text" class="formulario__input" placeholder="Pizza, Ensalada, Hamburguesa">
+                    </div>
+
+                    <input type="submit" class="formulario__submit" value="Buscar">
+                </form>
+            </div>
+            <div class="formulario__imagen">
+                <img src="build/img/dibujo_repartidor.svg" alt="imagen repartidor">
+            </div>
+        </div>
+    </section>
 </body>
 </html>
